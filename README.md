@@ -1,6 +1,8 @@
 # RunGPT
 Interface to directly query GPT.
 
+Note: you will need to assign a `apitoken` variable inside a `_utils.py` file before running this program.
+
 ### Usage:
 
 From commandline:
