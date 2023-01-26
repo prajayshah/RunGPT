@@ -11,3 +11,5 @@ From commandline:
 Then, directly type in your query to the input field that opens on the command line.
 
 Exit python to quit the program.
+
+Optional tip: setup an alias command in your .bash_profile to quickly startup the program using a shortcut.  
