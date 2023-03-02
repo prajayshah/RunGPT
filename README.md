@@ -16,7 +16,11 @@ To query davinci model (text completion):
 $ python gpt3.py
 ```
 
-Then, directly type in your query to the input field that opens on the command line.
+Then, directly type in your query to the input field:
+
+```
+What is the capital of Ottawa?
+```
 
 Exit python to quit the program.
 
@@ -28,9 +32,16 @@ To query chat model (gpt3.5-turbo):
 $ python chatgpt.py
 ```
 
-First prompt (prime): prime the model as you wish, e.g. "you are a travel agent".
+First prompt (prime): prime the model as you wish, 
+```
+You are a travel agent.
+```
 
-Then, query the model in chat mode, e.g. "Give me a travel itinerary for a 5-day trip to New York City".
+Then, query the model in chat mode,
+
+```
+Give me a travel itinerary for a 5-day trip to New York City.
+```
 
 Exit python to quit the program.
 
