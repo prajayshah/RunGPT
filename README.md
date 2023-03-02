@@ -11,7 +11,10 @@ Note: you will first need to create a `_utils.py` file in the same directory, an
 #### Text completion
 From commandline:
 
-To query davinci model (text completion): `$ python gpt3.py`
+To query davinci model (text completion): 
+```bash
+$ python gpt3.py
+```
 
 Then, directly type in your query to the input field that opens on the command line.
 
@@ -20,7 +23,10 @@ Exit python to quit the program.
 #### ChatGPT API
 From commandline:
 
-To query chat model (gpt3.5-turbo): `$ python chatgpt.py`
+To query chat model (gpt3.5-turbo): 
+```bash
+$ python chatgpt.py
+```
 
 First prompt (prime): prime the model as you wish, e.g. "you are a travel agent".
 
