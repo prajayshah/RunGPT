@@ -1,5 +1,5 @@
 # RunGPT
-Interface to directly query OpenAI's GPT3 API.
+Interface to directly query OpenAI's GPT3 and (new) GPT3.5Chat API.
 
 Note: you will first need to create a `_utils.py` file in the same directory, and assign a `apitoken` variable inside the `_utils.py`. Assign `apitoken` as your personal secret OpenAI API key.
 
