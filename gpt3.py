@@ -3,7 +3,7 @@ from _utils import apikey
 
 ## Call the API key under your account (in a secure way)
 openai.api_key = apikey
-ENGINE = "gpt-3.5-turbo"
+ENGINE = "text-davinci-003"
 
 def GPT_Completion(texts):
     response = openai.Completion.create(
