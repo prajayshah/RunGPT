@@ -1,7 +1,7 @@
 # RunGPT
 Interface to directly query OpenAI's GPT3 API.
 
-Note: you will need to assign a `apitoken` variable inside a `_utils.py` file before running this program. Assign `apitoken` as your personal secret OpenAI API key.
+Note: you will first need to create a `_utils.py` file in the same directory, and assign a `apitoken` variable inside the `_utils.py`. Assign `apitoken` as your personal secret OpenAI API key.
 
 ### Usage:
 
