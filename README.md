@@ -7,6 +7,7 @@ Note: you will need to assign a `apitoken` variable inside a `_utils.py` file be
 
 #### Text completion
 From commandline:
+
 To query davinci model (text completion): `$ python gpt3.py`
 
 Then, directly type in your query to the input field that opens on the command line.
@@ -14,6 +15,8 @@ Then, directly type in your query to the input field that opens on the command l
 Exit python to quit the program.
 
 #### ChatGPT API
+From commandline:
+
 To query chat model (gpt3.5-turbo): `$ python chatgpt.py`
 
 First prompt (prime): prime the model as you wish, e.g. "you are a travel agent".
