@@ -1,17 +1,19 @@
+import sys
+
 import openai
 from _utils import apikey
 
 ## Call the API key under your account (in a secure way)
 openai.api_key = apikey
-ENGINE = "gpt-3.5-turbo"
+
 
 def GPT_Completion(texts):
     response = openai.Completion.create(
-        engine=ENGINE,
+        engine="code-davinci-002",
         prompt=texts,
         temperature=0.6,
         top_p=1,
-        max_tokens=200,
+        max_tokens=500,
         frequency_penalty=0,
         presence_penalty=0
     )
@@ -23,8 +25,9 @@ if __name__ == '__main__':
     while a:
         print('\n')
         try:
-            query = str(input(f'Query {ENGINE}: '))
-        except EOFError:
-            break
-        GPT_Completion(query)
+            query = str(input('Query Codex: '))
+            GPT_Completion(query)
+        except EOFError or KeyboardInterrupt:
+            a = False
+            sys.exit()
         print('\n')
