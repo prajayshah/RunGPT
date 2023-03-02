@@ -5,6 +5,9 @@ Note: you will first need to create a `_utils.py` file in the same directory, an
 
 ### Usage:
 
+(Optional tip): Setup an alias command in your .bash_profile to quickly startup the program using a shortcut.  
+
+
 #### Text completion
 From commandline:
 
@@ -25,4 +28,3 @@ Then, query the model in chat mode, e.g. "Give me a travel itinerary for a 5-day
 
 Exit python to quit the program.
 
-Optional tip: setup an alias command in your .bash_profile to quickly startup the program using a shortcut.  
