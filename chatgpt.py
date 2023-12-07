@@ -95,7 +95,7 @@ def ChatGPT_Completion(to_speech: bool = False):
 
 
 if __name__ == '__main__':
-    sys.argv.append('speech')
+    # sys.argv.append('speech')  # only here for testing
     to_speech = True if (len(sys.argv) > 1 and 'speech' in sys.argv[1]) else False
     flag = True
     system_prime = str(input(f'Prime {ENGINE}: '))
